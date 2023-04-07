@@ -22,7 +22,7 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
 )
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001734555079"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001757661876"))
 
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "")
 
@@ -36,7 +36,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/niteshkumar777/VenomXMusic",
+    "https://telegra.ph/file/766b5386441209ad89cf8.mp4",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
@@ -62,7 +62,7 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "5"))
 
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "6"))
 
-GITHUB_REPO = getenv("GITHUB_REPO", "https://telegra.ph/file/f84d28d91512a445ecce1.mp4")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://telegra.ph/file/766b5386441209ad89cf8.mp4")
 
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "")
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "")
@@ -104,11 +104,11 @@ clean = {}
 
 autoclean = []
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/06b0f2acecc50635c612c.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/3b9730e0042579e85c243.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/3c8c6762e38188bd879f7.jpg",
+    "https://telegra.ph/file/3b9730e0042579e85c243.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
